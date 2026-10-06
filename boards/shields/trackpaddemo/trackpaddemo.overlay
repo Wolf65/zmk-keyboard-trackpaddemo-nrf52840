@@ -54,8 +54,8 @@
         compatible = "azoteq,tps43";
         reg = <0x74>;
         status = "okay";
-        rst-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
-        rdy-gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
+        rst-gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
+        rdy-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
         enable-power-management;
         report-rate-lp2 = <640>;
         scroll-angle = <30>;

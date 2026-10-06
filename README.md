@@ -6,7 +6,7 @@ A minimal ZMK keyboard demonstrating trackpad integration using the Azoteq TPS43
 
 | Component        | Details                                     |
 | ---------------- | ------------------------------------------- |
-| MCU board        | nRF52840                                    |
+| MCU board        | nice!nano (nRF52840)                        |
 | Trackpad sensor  | Azoteq TPS43                                |
 
 ### Pin mapping
@@ -17,7 +17,6 @@ A minimal ZMK keyboard demonstrating trackpad integration using the Azoteq TPS43
 | I2C SCL        | P0.17  |
 | RDY            | P1.07  |
 | RST            | P1.02  |
-
 
 ## ZMK version
 
