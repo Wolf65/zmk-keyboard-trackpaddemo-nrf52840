@@ -28,16 +28,16 @@
 &pinctrl {
     my_i2c0_default: my_i2c0_default {
         group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 1, 14)>,
-                    <NRF_PSEL(TWIM_SCL, 1, 15)>;
+            psels = <NRF_PSEL(TWIM_SDA, 0, 20)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 17)>;
             bias-pull-up;
         };
     };
 
     my_i2c0_sleep: my_i2c0_sleep {
         group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 1, 14)>,
-                    <NRF_PSEL(TWIM_SCL, 1, 15)>;
+            psels = <NRF_PSEL(TWIM_SDA, 0, 20)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 17)>;
             low-power-enable;
         };
     };
@@ -54,8 +54,8 @@
         compatible = "azoteq,tps43";
         reg = <0x74>;
         status = "okay";
-        rst-gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
-        rdy-gpios = <&gpio1 12 GPIO_ACTIVE_HIGH>;
+        rst-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+        rdy-gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
         enable-power-management;
         report-rate-lp2 = <640>;
         scroll-angle = <30>;

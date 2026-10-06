@@ -1,4 +1,4 @@
 ---
 include:
-  - board: xiao_ble//zmk
-    shield: trackpaddemo
+  - board: nice_nano//zmk
+    shield: trackpaddemonrf

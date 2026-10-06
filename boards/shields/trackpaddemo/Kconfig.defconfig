@@ -3,7 +3,7 @@ if SHIELD_TRACKPADDEMO
 CONFIG_ZMK_BOARD_COMPAT=y
 
 config ZMK_KEYBOARD_NAME
-    default "TRACKPAD DEMO"
+    default "TRACKPADDEMONRF"
 
 config I2C
     default y
