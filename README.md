@@ -13,8 +13,8 @@ A minimal ZMK keyboard demonstrating trackpad integration using the Azoteq TPS43
 
 | Signal         | Pin    |
 | -------------- | ------ |
-| I2C SDA        | P0.20  |
-| I2C SCL        | P0.17  |
+| I2C SDA        | P0.17  |
+| I2C SCL        | P0.20  |
 | RDY            | P1.07  |
 | RST            | P1.02  |
 
